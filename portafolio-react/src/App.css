@@ -3,10 +3,13 @@
 }
 
 
+
+
 body {
   font-family: 'Roxborough CF', sans-serif !important;
   background: rgb(153,223,201);
 background: linear-gradient(90deg, rgba(153,223,201,1) 23%, rgba(66,134,190,1) 100%);
+overflow-x: hidden;
 }
 
 h1{

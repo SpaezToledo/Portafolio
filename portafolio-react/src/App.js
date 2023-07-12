@@ -1,6 +1,7 @@
 import './App.css';
 import './3D.css';
 import './Form.css';
+import './Responsive.css';
 import html from './assets/html.png';
 import node from './assets/NodeJs.png';
 import sql from './assets/mysql.png';
@@ -24,7 +25,7 @@ function App() {
   <h1 className="titulo">Santiago Paez Toledo</h1>
   <h2 className="subtitulo">Desarrollador Web Full Stack</h2>
   </div>
-  <section>
+  <section id='projectos'>
     <h3>Projectos</h3>
     <div>
 
