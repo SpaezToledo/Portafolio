@@ -153,36 +153,36 @@ body{
   
   .backM{
     transform: translateZ(-100px) rotateY(180deg);
-    background-image: url('./assets/HC4.png');
+    background-image: url('./assets/M3.png');
   }
   
   .rightM{
     transform: rotateY(-270deg) translateX(100px);
     transform-origin: top right;
-    background-image: url('./assets/HC3.png');
+    background-image: url('./assets/M1.png');
   }
   
   .leftM {
     transform: rotateY(270deg) translateX(-100px);
     transform-origin: center left;
-    background-image: url('./assets/hc.png');
+    background-image: url('./assets/M.png');
   }
   
   .topM {
       transform: rotateX(-90deg) translateZ(0px);
       transform-origin: top center;
-    background-image: url('./assets/hc.png');
+    background-image: url('./assets/M.png');
   }
   
   .bottomM {
     transform: rotateX(90deg) translateY(100px);
     transform-origin: bottom center;
-    background-image: url('./assets/HC5.png');
+    background-image: url('./assets/M4.png');
   }
   
   .frontM {
       transform: translateZ(0px);
-    background-image: url('./assets/HC2.png');
+    background-image: url('./assets/M2.png');
   }
   
   .backM,
@@ -253,6 +253,8 @@ body{
       
       .cube-list li {
         margin-right: -400px;
+        position: relative;
+        left: 100px;
       }
       
       /* Estilos para el primer cubo */
@@ -321,36 +323,36 @@ body{
       
       .backN {
         transform: translateZ(-100px) rotateY(180deg);
-        background-image: url('./assets/HC4.png');
+        background-image: url('./assets/N4.png');
       }
       
       .rightN {
         transform: rotateY(-270deg) translateX(100px);
         transform-origin: top right;
-        background-image: url('./assets/HC3.png');
+        background-image: url('./assets/N3.png');
       }
       
       .leftN {
         transform: rotateY(270deg) translateX(-100px);
         transform-origin: center left;
-        background-image: url('./assets/hc.png');
+        background-image: url('./assets/Escudo.png');
       }
       
       .topN {
         transform: rotateX(-90deg) translateZ(0px);
         transform-origin: top center;
-        background-image: url('./assets/hc.png');
+        background-image: url('./assets/Escudo.png');
       }
       
       .bottomN {
         transform: rotateX(90deg) translateY(100px);
         transform-origin: bottom center;
-        background-image: url('./assets/HC5.png');
+        background-image: url('./assets/N1.png');
       }
       
       .frontN {
         transform: translateZ(0px);
-        background-image: url('./assets/HC2.png');
+        background-image: url('./assets/N2.png');
       }
       
       .backN,
@@ -415,36 +417,36 @@ body{
       
       .backC {
         transform: translateZ(-100px) rotateY(180deg);
-        background-image: url('./assets/HC4.png');
+        background-image: url('./assets/C.jpg');
       }
       
       .rightC {
         transform: rotateY(-270deg) translateX(100px);
         transform-origin: top right;
-        background-image: url('./assets/HC3.png');
+        background-image: url('./assets/C.jpg');
       }
       
       .leftC {
         transform: rotateY(270deg) translateX(-100px);
         transform-origin: center left;
-        background-image: url('./assets/hc.png');
+        background-image: url('./assets/C.jpg');
       }
       
       .topC {
         transform: rotateX(-90deg) translateZ(0px);
         transform-origin: top center;
-        background-image: url('./assets/hc.png');
+        background-image: url('./assets/C.jpg');
       }
       
       .bottomC {
         transform: rotateX(90deg) translateY(100px);
         transform-origin: bottom center;
-        background-image: url('./assets/HC5.png');
+        background-image: url('./assets/C.jpg');
       }
       
       .frontC {
         transform: translateZ(0px);
-        background-image: url('./assets/HC2.png');
+        background-image: url('./assets/C.jpg');
       }
       
       .backC,
