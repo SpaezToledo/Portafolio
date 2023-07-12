@@ -43,3 +43,8 @@ form {
   input[type="submit"]:hover{
     color: black;
   }
+
+  .msg{
+    margin-top: 1px;
+    font-size: 1vw;
+  }

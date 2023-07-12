@@ -6,9 +6,17 @@ import node from './assets/NodeJs.png';
 import sql from './assets/mysql.png';
 import react from './assets/react.png';
 import gh from './assets/github.png';
-
+import { useForm, ValidationError } from '@formspree/react';
+  
 
 function App() {
+  const [state, handleSubmit] = useForm("mrgwgrnz");
+
+  const handleFormSubmit = async (e) => {
+    e.preventDefault(); // Evita que se envíe el formulario y se abra una nueva página
+
+    await handleSubmit(e); // Ejecuta el proceso de envío del formulario
+  };
   return (
     <div className="App">
 <body>
@@ -167,23 +175,37 @@ function App() {
 
 
 
-
-    <form>
-  <div class="form-group">
-    <label for="name">Nombre:</label>
-    <input type="text" id="name" name="name" required />
-  </div>
-  <div class="form-group">
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" required />
-  </div>
-  <div class="form-group">
-    <label for="message">Mensaje:</label>
-    <textarea id="message" name="message" required></textarea>
-  </div>
-  <input type="submit" value="Enviar" />
+    <form onSubmit={handleFormSubmit}>
+  {state.succeeded ? (
+    <p className='msg'>Gracias por tu mensaje!</p>
+  ) : (
+    <>
+      <div className="form-group">
+        <label htmlFor="name">Nombre:</label>
+        <input type="text" id="name" name="name" required />
+      </div>
+      <div className="form-group">
+        <label htmlFor="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+      </div>
+      <div className="form-group">
+        <label htmlFor="message">Mensaje:</label>
+        <textarea id="message" name="message" required></textarea>
+      </div>
+      <input type="submit" value="Enviar" disabled={state.submitting} />
+      <ValidationError 
+        prefix="Email" 
+        field="email"
+        errors={state.errors}
+      />
+      <ValidationError 
+        prefix="Message" 
+        field="message"
+        errors={state.errors}
+      />
+    </>
+  )}
 </form>
-
 
 
 
