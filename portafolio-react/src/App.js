@@ -1,4 +1,5 @@
 import './App.css';
+import './3D.css';
 import html from './assets/html.png';
 import node from './assets/NodeJs.png';
 import sql from './assets/mysql.png';
@@ -17,6 +18,114 @@ function App() {
   <section>
     <h3>Projectos</h3>
     <div>
+
+
+
+<div class="container">
+  <ul class="cube-list">
+    <li>
+      <div class="center-container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="wrap-cube">
+              <div class="cube">
+                <div class="face front"></div>
+                <div class="face back"></div>
+                <div class="face top"></div>
+                <div class="face bottom"></div>
+                <div class="face left"></div>
+                <div class="face right"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+
+
+
+
+    <li>
+      <div class="center-containerM">
+        <div class="rowM">
+          <div class="col-md-12">
+            <div class="wrap-cubeM">
+              <div class="cubeM">
+                <div class="face frontM"></div>
+                <div class="face backM"></div>
+                <div class="face topM"></div>
+                <div class="face bottomM"></div>
+                <div class="face leftM"></div>
+                <div class="face rightM"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+
+
+
+
+    <li>
+      <div class="center-containerN">
+        <div class="rowN">
+          <div class="col-md-12">
+            <div class="wrap-cubeN">
+              <div class="cubeN">
+                <div class="face frontN"></div>
+                <div class="face backN"></div>
+                <div class="face topN"></div>
+                <div class="face bottomN"></div>
+                <div class="face leftN"></div>
+                <div class="face rightN"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+
+
+
+
+    <li>
+      <div class="center-containerC">
+        <div class="rowM">
+          <div class="col-md-12">
+            <div class="wrap-cubeC">
+              <div class="cubeC">
+                <div class="face frontC"></div>
+                <div class="face backC"></div>
+                <div class="face topC"></div>
+                <div class="face bottomC"></div>
+                <div class="face leftC"></div>
+                <div class="face rightC"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+
+
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
     </div>
   </section>
