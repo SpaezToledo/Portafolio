@@ -18,6 +18,12 @@ function App() {
   <section>
     <h3>Projectos</h3>
     <div>
+    <ul class="title-list">
+  <li class="title-item1">Handicraft</li>
+  <li class="title-item2">Muñiz</li>
+  <li class="title-item3">Meliebre</li>
+  <li class="title-item4">Calculadora</li>
+</ul>
 
 
 
