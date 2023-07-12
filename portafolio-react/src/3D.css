@@ -12,12 +12,15 @@ body{
 }
 
 .cube{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   transform-style: preserve-3d;
   margin: 100px auto;
   animation: spin 10s linear infinite;
-  width: 100px; /* Ajusta el ancho del cubo */
-  height: 100px; /* Ajusta la altura del cubo */
-  transform: scale3d(0.5, 0.5, 0.5); /* Ajusta la escala del cubo */
+  width: 100px;
+  height: 100px;
+  transform: scale3d(0.5, 0.5, 0.5);
   margin-top: 120px;
  
 }
@@ -305,8 +308,7 @@ body{
         margin-top: 120px;
       }
       
-      .faceN {
-        position: absolute;
+      .faceN {  
         width: 100%;
         height: 100%;
         line-height: 100px;
@@ -401,7 +403,6 @@ body{
       }
       
       .faceC {
-        position: absolute;
         width: 100%;
         height: 100%;
         line-height: 100px;

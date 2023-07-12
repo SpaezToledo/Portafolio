@@ -1,5 +1,6 @@
 import './App.css';
 import './3D.css';
+import './Form.css';
 import html from './assets/html.png';
 import node from './assets/NodeJs.png';
 import sql from './assets/mysql.png';
@@ -162,6 +163,33 @@ function App() {
   <section>
     <h3>Contacto</h3>
     <div>
+
+
+
+
+
+    <form>
+  <div class="form-group">
+    <label for="name">Nombre:</label>
+    <input type="text" id="name" name="name" required />
+  </div>
+  <div class="form-group">
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required />
+  </div>
+  <div class="form-group">
+    <label for="message">Mensaje:</label>
+    <textarea id="message" name="message" required></textarea>
+  </div>
+  <input type="submit" value="Enviar" />
+</form>
+
+
+
+
+
+
+
      
     </div>
   </section>
