@@ -7,6 +7,10 @@ import node from './assets/NodeJs.png';
 import sql from './assets/mysql.png';
 import react from './assets/react.png';
 import gh from './assets/github.png';
+import hc from './assets/hc.png';
+import m from './assets/M.png';
+import c from './assets/C.jpg';
+import n from './assets/Escudo.png';
 import { useForm, ValidationError } from '@formspree/react';
   
 
@@ -29,6 +33,14 @@ function App() {
     <h3>Projectos</h3>
     <div>
 
+    <div className='img-p'>
+    <ul class="list-projects">
+    <li id="hc"><img src={hc} alt="Imagen 1" /></li>
+      <li id="m"><img src={m} alt="Imagen 2" /></li>
+      <li id="n"><img src={n} alt="Imagen 3" /></li>
+      <li id="c"><img src={c} alt="Imagen 4" /></li>
+</ul>
+    </div>
 
 
 <div class="container">

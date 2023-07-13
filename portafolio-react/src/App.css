@@ -9,7 +9,7 @@ body {
   font-family: 'Roxborough CF', sans-serif !important;
   background: rgb(153,223,201);
 background: linear-gradient(90deg, rgba(153,223,201,1) 23%, rgba(66,134,190,1) 100%);
-overflow-x: hidden;
+
 }
 
 h1{
@@ -107,3 +107,64 @@ margin-right: 330px;
     line-height: 1;
   }
 }
+
+.list-projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+
+}
+
+.list-projects li {
+  margin-bottom: 10px; /* Espacio entre elementos de la lista */
+}
+
+
+.list-projects img {
+  height: auto; /* Ajusta la altura automáticamente en proporción al ancho */
+}
+
+
+#hc img {
+  width: 100px; /* Ancho específico para la imagen con el ID "hc" */
+}
+
+#m img {
+  width: 100px; /* Ancho específico para la imagen con el ID "m" */
+}
+
+#n img {
+  width: 80px; /* Ancho específico para la imagen con el ID "n" */
+}
+
+#c img {
+  width: 100px; /* Ancho específico para la imagen con el ID "c" */
+}
+
+.list-projects li {
+  margin-left: 30px;
+  margin-right: 100px;
+}
+
+
+@media (max-width: 479px) {
+  .list-projects li {
+    margin-left: 60px;
+    
+  }
+  
+}
+
+
+@media (min-width:985px){
+  .list-projects {
+    display: none;
+  }
+  
+}
+
+
+
+@media 
