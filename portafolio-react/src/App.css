@@ -166,3 +166,59 @@ margin-right: 330px;
 }
 
 
+
+
+
+
+
+
+.sidebar {
+  position: fixed;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  background-color: transparent;
+  padding: 8px;
+  padding-top: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 9999;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+}
+
+.sidebar a {
+  color: #333;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar a img {
+ 
+  height: px;
+  margin-right: 0px;
+}
+
+.linkedin-icon {
+  width: 40px;
+ 
+}
+
+.gmail-icon {
+  width: 25px;
+  margin-left: 8px;
+}
+
+.github-icon {
+  width: 25px;
+ margin-left: 8px;
+}

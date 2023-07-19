@@ -11,6 +11,9 @@ import hc from './assets/hc.png';
 import m from './assets/M.png';
 import c from './assets/C.jpg';
 import n from './assets/Escudo.png';
+import l from './assets/Link.png';
+import g from './assets/G.png';
+
 import { useForm, ValidationError } from '@formspree/react';
   
 
@@ -29,6 +32,35 @@ function App() {
   <h1 className="titulo">Santiago Paez Toledo</h1>
   <h2 className="subtitulo">Desarrollador Web Full Stack</h2>
   </div>
+
+
+
+  
+
+  <div class="sidebar">
+  <ul>
+    <li>
+      <a href="https://www.linkedin.com/in/spaeztoledo/">
+        <img class="linkedin-icon" src={l} alt="LinkedIn"/>
+      </a>
+    </li>
+    <li>
+      <a href="mailto:santipaeztoledo21@gmail.com">
+        <img class="gmail-icon" src={g} alt="Gmail"/>
+      </a>
+    </li>
+    <li>
+      <a href="https://github.com/SpaezToledo/">
+        <img class="github-icon" src={gh} alt="GitHub"/>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+
+
+
   <section id='projectos'>
     <h3>Projectos</h3>
     <div>
