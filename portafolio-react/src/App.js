@@ -35,34 +35,38 @@ function App() {
 
     <div className='img-p'>
     <ul class="list-projects">
-    <li id="hc"><img src={hc} alt="Imagen 1" /></li>
-      <li id="m"><img src={m} alt="Imagen 2" /></li>
-      <li id="n"><img src={n} alt="Imagen 3" /></li>
-      <li id="c"><img src={c} alt="Imagen 4" /></li>
+  <li id="hc"><a href="https://github.com/fcgrandoli/DH-HandiCraft"><img src={hc} alt="Imagen 1" /></a></li>
+  <li id="m"><a href="https://github.com/SpaezToledo/MELIEBRE"><img src={m} alt="Imagen 2" /></a></li>
+  <li id="n"><a href="https://github.com/SpaezToledo/Muniz"><img src={n} alt="Imagen 3" /></a></li>
+  <li id="c"><a href="https://github.com/SpaezToledo/Calculadora"><img src={c} alt="Imagen 4" /></a></li>
 </ul>
+
     </div>
 
 
 <div class="container">
   <ul class="cube-list">
-    <li>
-      <div class="center-container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="wrap-cube">
-              <div class="cube">
-                <div class="face front"></div>
-                <div class="face back"></div>
-                <div class="face top"></div>
-                <div class="face bottom"></div>
-                <div class="face left"></div>
-                <div class="face right"></div>
-              </div>
+  <li>
+  <div class="center-container">
+    <div class="row">
+      <div class="col-md-12">
+        <a href="https://github.com/fcgrandoli/DH-HandiCraft">
+          <div class="wrap-cube">
+            <div class="cube">
+              <div class="face front"></div>
+              <div class="face back"></div>
+              <div class="face top"></div>
+              <div class="face bottom"></div>
+              <div class="face left"></div>
+              <div class="face right"></div>
             </div>
           </div>
-        </div>
+        </a>
       </div>
-    </li>
+    </div>
+  </div>
+</li>
+
 
 
 
@@ -71,6 +75,7 @@ function App() {
       <div class="center-containerM">
         <div class="rowM">
           <div class="col-md-12">
+          <a href="https://github.com/SpaezToledo/MELIEBRE">
             <div class="wrap-cubeM">
               <div class="cubeM">
                 <div class="face frontM"></div>
@@ -81,6 +86,7 @@ function App() {
                 <div class="face rightM"></div>
               </div>
             </div>
+            </a>
           </div>
         </div>
       </div>
@@ -93,6 +99,7 @@ function App() {
       <div class="center-containerN">
         <div class="rowN">
           <div class="col-md-12">
+          <a href="https://github.com/SpaezToledo/Muniz">
             <div class="wrap-cubeN">
               <div class="cubeN">
                 <div class="face frontN"></div>
@@ -103,6 +110,7 @@ function App() {
                 <div class="face rightN"></div>
               </div>
             </div>
+            </a>
           </div>
         </div>
       </div>
@@ -115,6 +123,7 @@ function App() {
       <div class="center-containerC">
         <div class="rowM">
           <div class="col-md-12">
+          <a href="https://github.com/SpaezToledo/Calculadora">
             <div class="wrap-cubeC">
               <div class="cubeC">
                 <div class="face frontC"></div>
@@ -125,6 +134,7 @@ function App() {
                 <div class="face rightC"></div>
               </div>
             </div>
+            </a>
           </div>
         </div>
       </div>

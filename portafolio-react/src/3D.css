@@ -461,4 +461,11 @@ body{
       }
 
 
+      .list-projects li {
+        pointer-events: none;
+      }
+      
+      .list-projects li a {
+        pointer-events: auto;
+      }
       
